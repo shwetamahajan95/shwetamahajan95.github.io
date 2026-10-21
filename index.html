@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Shweta Mahajan | Senior Business Analyst, Healthcare IT</title>
 <style>
-:root{--bg:#f6f4ff;--card:#ffffff;--ink:#1b1740;--mute:#625d86;--accent:#5b3df5;--gold:#ff7a59;--line:#e3defa;--hero:linear-gradient(135deg,#2b1b7a,#5b3df5 60%,#00b8a9);--herotxt:#ffffff;
+:root{--bg:#f3f8fa;--card:#ffffff;--ink:#0f2a3d;--mute:#52697a;--accent:#0b6e8a;--gold:#f2a541;--line:#d9e5ec;--hero:linear-gradient(135deg,#0b2545,#13607f 60%,#1aa59a);--herotxt:#ffffff;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#120f2b;--card:#1d1942;--ink:#efecff;--mute:#a9a3d6;--accent:#a99bff;--gold:#ff8f70;--line:#312b66;--hero:linear-gradient(135deg,#1a1150,#3b2a9a 60%,#007f78);--herotxt:#ffffff;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#120f2b;--card:#1d1942;--ink:#efecff;--mute:#a9a3d6;--accent:#a99bff;--gold:#ff8f70;--line:#312b66;--hero:linear-gradient(135deg,#1a1150,#3b2a9a 60%,#007f78);--herotxt:#ffffff;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1822;--card:#11242f;--ink:#e8f3f8;--mute:#9db5c3;--accent:#5cc8e0;--gold:#f5b45c;--line:#1f3a4a;--hero:linear-gradient(135deg,#071a2b,#0e4a63 60%,#0f7d78);--herotxt:#ffffff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1822;--card:#11242f;--ink:#e8f3f8;--mute:#9db5c3;--accent:#5cc8e0;--gold:#f5b45c;--line:#1f3a4a;--hero:linear-gradient(135deg,#071a2b,#0e4a63 60%,#0f7d78);--herotxt:#ffffff;color-scheme:dark}
 *{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Calibri,Helvetica,Arial,sans-serif;line-height:1.55}
 .wrap{max-width:980px;margin:0 auto;padding:0 20px}
@@ -18,16 +18,17 @@ h1{font-size:clamp(2rem,6vw,3.2rem);margin:.2em 0 .1em;letter-spacing:.01em}
 .sub{font-size:1.1rem;opacity:.9;margin:0 0 18px}
 .lead{max-width:680px;opacity:.95}
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-.btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--gold);color:#1b1740;background:var(--gold)}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--gold);color:#0f2a3d;background:var(--gold)}
 .btn.o{background:transparent;color:var(--herotxt)}
 nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);z-index:5}
 nav .wrap{display:flex;gap:20px;overflow-x:auto;padding-top:12px;padding-bottom:12px}
 nav a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap;font-size:.95rem}
 section{padding:40px 0 8px}
 h2{font-size:1.5rem;margin:0 0 16px;color:var(--accent);border-left:5px solid var(--gold);padding-left:12px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:-30px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.06)}
-.stat b{display:block;font-size:1.9rem;color:var(--accent)}.stat span{color:var(--mute);font-size:.9rem}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:36px 0 12px}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}}
+.stat{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:12px;padding:26px 16px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.stat b{display:block;font-size:2.2rem;line-height:1.1;margin-bottom:8px;color:var(--accent)}.stat span{display:block;color:var(--mute);font-size:.92rem;line-height:1.35}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
 .card{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:12px;padding:18px}
 .card h3{margin:0 0 6px;font-size:1.05rem}.card p{margin:0 0 10px;color:var(--mute);font-size:.95rem}
@@ -49,7 +50,7 @@ footer{margin-top:40px;padding:28px 0;border-top:1px solid var(--line);color:var
 <p class="lead">I turn complex health insurance rules and messy business needs into clear, testable requirements that development and QA teams can build with confidence. Seven years across billing, payments, and rules-driven platforms.</p>
 <div class="btns"><a class="btn" href="mailto:shwetamahajan.usa@gmail.com">Email me</a><a class="btn o" href="https://linkedin.com/in/shwetakunalmahajan">LinkedIn</a><a class="btn o" href="#samples">See my work samples</a></div>
 </div></header>
-<nav><div class="wrap"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#samples">Work Samples</a><a href="#contact">Contact</a></div></nav>
+<nav><div class="wrap"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#samples">Work Samples</a><a href="#resume">Resume</a><a href="#contact">Contact</a></div></nav>
 <div class="wrap">
 <div class="stats">
 <div class="stat"><b>7+</b><span>years in BA roles</span></div>
@@ -84,6 +85,9 @@ footer{margin-top:40px;padding:28px 0;border-top:1px solid var(--line);color:var
 <div class="card"><h3>Process Flow Diagram</h3><p>A To-Be flow showing amount checks, duplicate blocking, payment confirmation, and exception handling.</p><a class="s-btn" href="Process-Flow.png" target="_blank" rel="noopener">View Process Flow</a></div>
 </div>
 <p class="note">All samples use a fictional company and invented data. They contain no confidential client information.</p>
+</section>
+<section id="resume"><h2>Resume</h2>
+<div class="card"><h3>Shweta Mahajan | Senior Business Analyst</h3><p>A one-page summary of my experience, skills, and results in healthcare IT and health insurance. Open it in your browser or download a copy.</p><a class="s-btn" href="Shweta-Mahajan-Resume.pdf" target="_blank" rel="noopener">View Resume (PDF)</a> <a class="s-btn" href="Shweta-Mahajan-Resume.pdf" download>Download</a></div>
 </section>
 <section id="contact"><h2>Contact</h2>
 <p>Based in Minnesota, USA. Authorized to work for any U.S. employer with no sponsorship required.</p>
